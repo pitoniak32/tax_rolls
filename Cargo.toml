@@ -3,3 +3,10 @@
 members = [
     "pdf2csv",
 ]
+
+[workspace.dependencies]
+anyhow = "1.0.75"
+pretty_assertions = "1.4.0"
+rstest = "0.18.2"
+rstest_reuse = "0.6.0"
+nom = "7.1.3"

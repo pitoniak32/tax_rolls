@@ -1,0 +1,176 @@
+STATE OF NEW YORK
+COUNTY - Oneida
+TOWN
+ - Vienna
+VILLAGE - Sylvan Beach
+SWIS
+ - 306401
+2 0 2 3
+ F I N A L
+ A S S E S S M E N T
+ R O L L
+T A X A B L E SECTION OF THE ROLL - 1
+TAX MAP NUMBER SEQUENCE
+UNIFORM PERCENT OF VALUE IS 040.00
+PAGE
+ 1
+VALUATION DATE-JUL 01, 2022
+TAXABLE STATUS DATE-MAR 01, 2023
+TAX MAP PARCEL NUMBER
+ PROPERTY LOCATION & CLASS ASSESSMENT EXEMPTION CODE------------------COUNTY--------TOWN------SCHOOL
+CURRENT OWNERS NAME
+ SCHOOL DISTRICT
+ LAND
+ TAX DESCRIPTION
+ TAXABLE VALUE
+CURRENT OWNERS ADDRESS
+ PARCEL SIZE/GRID COORD
+ TOTAL
+ SPECIAL DISTRICTS
+ ACCOUNT NO.
+******************************************************************************************************* 236.011-1-1 ****************
+2 McClanathan Ave
+ 017470
+236.011-1-1
+ 210 1 Family Res
+ BAS STAR
+ 41854
+ 0
+ 0
+ 14,100
+Madis Voldemar
+ Camden Central 303001
+ 80,700
+ COUNTY TAXABLE VALUE
+ 154,100
+Madis Nancy J
+ FRNT
+ 85.00 DPTH 100.00
+ 154,100
+ TOWN
+ TAXABLE VALUE
+ 154,100
+2 McClanathan Ave
+ EAST-0727610 NRTH-1172161
+ SCHOOL TAXABLE VALUE
+ 140,000
+Blossvale, NY 13308
+ DEED BOOK 2004
+ PG-5212
+ FD047 S bch vrna fd
+ 154,100 TO
+FULL MARKET VALUE
+ 385,250
+******************************************************************************************************* 236.011-1-2 ****************
+4 McClanathan Ave
+ 017460
+236.011-1-2
+ 260 Seasonal res
+ COUNTY TAXABLE VALUE
+ 103,300
+Fariel Dana R
+ Camden Central 303001
+ 53,800
+ TOWN
+ TAXABLE VALUE
+ 103,300
+4 McClanathan Ave
+ FRNT
+ 50.00 DPTH
+ 103,300
+ SCHOOL TAXABLE VALUE
+ 103,300
+Blossvale, NY 13308
+ ACRES
+ 0.34
+ FD047 S bch vrna fd
+ 103,300 TO
+EAST-0727523 NRTH-1172100
+DEED BOOK 2022
+ PG-16094
+FULL MARKET VALUE
+ 258,250
+******************************************************************************************************* 236.011-1-3 ****************
+McClanathan Ave
+ 017450
+236.011-1-3
+ 260 Seasonal res
+ COUNTY TAXABLE VALUE
+ 96,000
+Vanderhoof James
+ Camden Central 303001
+ 42,800
+ TOWN
+ TAXABLE VALUE
+ 96,000
+Vanderhoof Irene
+ FRNT
+ 50.00 DPTH 136.00
+ 96,000
+ SCHOOL TAXABLE VALUE
+ 96,000
+4155 West Wind Dr
+ EAST-0727525 NRTH-1172050
+ FD047 S bch vrna fd
+ 96,000 TO
+Vernon, NY 13476
+ DEED BOOK 2712
+ PG-302
+FULL MARKET VALUE
+ 240,000
+******************************************************************************************************* 236.011-1-5 ****************
+McClanathan Ave
+ 017430
+236.011-1-5
+ 311 Res vac land
+ COUNTY TAXABLE VALUE
+ 13,600
+Weisus Re, LLC
+ Camden Central 303001
+ 13,600
+ TOWN
+ TAXABLE VALUE
+ 13,600
+PO Box 371
+ Merge With 236.011-1-6
+ 13,600
+ SCHOOL TAXABLE VALUE
+ 13,600
+Sylvan Beach, NY 13157
+ FRNT 106.00 DPTH 140.00
+ FD047 S bch vrna fd
+ 13,600 TO
+EAST-0727713 NRTH-1172092
+DEED BOOK 2022
+ PG-12602
+FULL MARKET VALUE
+ 34,000
+******************************************************************************************************* 236.015-1-1 ****************
+1 30th Ave
+ 017390
+236.015-1-1
+ 210 1 Family Res
+ COUNTY TAXABLE VALUE
+ 101,000
+Wilson Timothy V
+ Camden Central 303001
+ 51,900
+ TOWN
+ TAXABLE VALUE
+ 101,000
+Kohler Rebecca L
+ FRNT
+ 50.00 DPTH 137.00
+ 101,000
+ SCHOOL TAXABLE VALUE
+ 101,000
+PO Box 371
+ EAST-0727591 NRTH-1171988
+ FD047 S bch vrna fd
+ 101,000 TO
+Sylvan Beach, NY 13157
+ DEED BOOK 2016
+ PG-8985
+FULL MARKET VALUE
+ 252,500
+************************************************************************************************************************************
