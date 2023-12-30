@@ -2,6 +2,7 @@
 
 members = [
     "pdf2csv",
+    "trui-axum",
 ]
 
 [workspace.dependencies]
