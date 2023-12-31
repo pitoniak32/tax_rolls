@@ -11,7 +11,7 @@ cfg_if! {
         Router,
     };
     use axum::body::Body as AxumBody;
-    use trui_axum::todo::*;
+    use trui_axum::rolls::*;
     use trui_axum::fallback::file_and_error_handler;
     use leptos_axum::{generate_route_list, LeptosRoutes};
 
@@ -21,7 +21,7 @@ cfg_if! {
             move || {
                 provide_context(id.clone());
             },
-            || view! { <TodoApp/> }
+            || view! { <RollsApp/> }
         );
             handler(req).await.into_response()
     }
@@ -30,23 +30,23 @@ cfg_if! {
     async fn main() {
         simple_logger::init_with_level(log::Level::Error).expect("couldn't initialize logging");
 
-        let mut conn = db().await.expect("couldn't connect to DB");
-        sqlx::migrate!()
-            .run(&mut conn)
-            .await
-            .expect("could not run SQLx migrations");
+        // let mut conn = db().await.expect("couldn't connect to DB");
+        // sqlx::migrate!()
+        //     .run(&mut conn)
+        //     .await
+        //     .expect("could not run SQLx migrations");
 
         // Setting this to None means we'll be using cargo-leptos and its env vars
         let conf = get_configuration(None).await.unwrap();
         let leptos_options = conf.leptos_options;
         let addr = leptos_options.site_addr;
-        let routes = generate_route_list(TodoApp);
+        let routes = generate_route_list(RollsApp);
 
         // build our application with a route
         let app = Router::new()
         .route("/api/*fn_name", post(leptos_axum::handle_server_fns))
         .route("/special/:id", get(custom_handler))
-        .leptos_routes(&leptos_options, routes, || view! { <TodoApp/> } )
+        .leptos_routes(&leptos_options, routes, || view! { <RollsApp/> } )
         .fallback(file_and_error_handler)
         .with_state(leptos_options);
 
@@ -55,11 +55,10 @@ cfg_if! {
             .serve(app.into_make_service())
             .await
             .unwrap();
-    }
-}
 
-    // client-only stuff for Trunk
-    else {
+    }
+        // client-only stuff for Trunk
+    } else {
         pub fn main() {
             // This example cannot be built as a trunk standalone CSR-only app.
             // Only the server may directly connect to the database.

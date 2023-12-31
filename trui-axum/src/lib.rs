@@ -2,14 +2,15 @@ use cfg_if::cfg_if;
 pub mod error_template;
 pub mod errors;
 pub mod fallback;
-pub mod todo;
+pub mod rolls;
+pub mod darkmode;
 
 // Needs to be in lib.rs AFAIK because wasm-bindgen needs us to be compiling a lib. I may be wrong.
 cfg_if! {
     if #[cfg(feature = "hydrate")] {
         use leptos::*;
         use wasm_bindgen::prelude::wasm_bindgen;
-        use crate::todo::*;
+        use crate::rolls::*;
 
         #[wasm_bindgen]
         pub fn hydrate() {
@@ -17,7 +18,7 @@ cfg_if! {
             console_error_panic_hook::set_once();
 
             leptos::mount_to_body(|| {
-                view! { <TodoApp/> }
+                view! { <RollsApp/> }
             });
         }
     }
